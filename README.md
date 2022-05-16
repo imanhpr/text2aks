@@ -1,3 +1,5 @@
+![license](https://img.shields.io/github/license/imanhpr/text2aks?style=for-the-badge) ![enter image description here](https://img.shields.io/github/commit-activity/m/imanhpr/text2aks?style=for-the-badge)
+
 # Text2Aks
 **This project is under active development and anything can change in the future**
 
