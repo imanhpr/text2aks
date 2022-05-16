@@ -2,9 +2,15 @@
 
 # Text2Aks
 **This project is under active development and anything can change in the future**
-
+___
 ### What is text2aks ?
 **Text2Aks** is a simple library that can generate simple pictures with text input.
+___
+### Installing
+Install and update using pip:
+
+```$ pip install text2aks```
+___
 ### How dose it work ?
 ***You have to have [Pillow](https://pillow.readthedocs.io/en/stable/) installed on your system.***
 In the below example I will show you how can you genrate image with text2aks
@@ -48,7 +54,7 @@ Fonts.VAZIR_SEMIBOLD  # "Vazirmatn-SemiBold.ttf"
 Fonts.VAZIR_THIN  # "Vazirmatn-Thin.ttf"
 
 ```
-
+___
 ## LICENSE
 ```
 MIT License
