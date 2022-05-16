@@ -2,7 +2,7 @@ from pathlib import Path
 from enum import Enum
 from typing import Final
 
-FONTS_DIR: Final = Path(".", "text2aks", "fonts")
+FONTS_DIR: Final = Path(__file__).parent / 'fonts'
 
 
 class Dirs(Enum):
