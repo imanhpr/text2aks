@@ -7,8 +7,8 @@
 ***You have to have [Pillow](https://pillow.readthedocs.io/en/stable/) installed on your system.***
 In the below example I will show you how can you genrate image with text2aks
 ```python
-from text2aks import Text2Aks
-from text2aks.fonts_data import  Fonts
+from text2aks import Text2Aks, Fonts
+from text2aks.elements import make_darker
 from PIL import Image
 
 my_image = 'path to my image'
