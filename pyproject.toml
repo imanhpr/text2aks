@@ -1,8 +1,25 @@
 [tool.poetry]
 name = "text2aks"
-version = "0.1.0"
-description = ""
+version = "0.1.0a1"
+description = "A simple python library to put text into an image."
 authors = ["ImanHpr <imanhpr1999@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/imanhpr/text2aks"
+homepage = "https://github.com/imanhpr/text2aks"
+keywords = ['Pillow' , 'Picture' , 'Text']
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Other Audience",
+    "Natural Language :: Persian",
+    "Natural Language :: Arabic",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
