@@ -29,6 +29,7 @@ class Text2Aks(Text2Image):
         writer: str,
         dir: Literal["rtl", "ltr"] = "rtl",
         wraper_wid: int = 45,
+        line_space : int = 5
     ):
         draw = ImageDraw.Draw(self._image)
         image_w, image_h = self._image.size
@@ -51,6 +52,8 @@ class Text2Aks(Text2Image):
             text_w, text_h = draw.textsize(
                 paragraph, self._font, direction=dir, stroke_width=3
             )
+            if isinstance(line_space , int):
+                text_h += line_space
             draw.multiline_text(
                 xy=((image_w - text_w) / 2, (image_h - text_h) / 2),
                 font=self._font,
@@ -59,6 +62,7 @@ class Text2Aks(Text2Image):
                 stroke_width=3,
                 direction=dir,
                 align="center",
+                spacing=line_space
             )
         writer_w, _ = draw.textsize(
                 writer, self._font, direction=dir, stroke_width=3

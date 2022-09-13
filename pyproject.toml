@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "text2aks"
-version = "0.1.0a1"
+version = "0.1.1a1"
 description = "A simple python library to put text into an image."
 authors = ["ImanHpr <imanhpr1999@gmail.com>"]
 license = "MIT"
